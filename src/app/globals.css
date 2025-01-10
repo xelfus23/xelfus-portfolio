@@ -1,21 +1,46 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Telex&display=swap'); */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+    --black: rgba(26, 27, 29, 1); /* #1a1b1d */
+    --blue: rgba(54, 24, 189, 1); /* #3618bd */
+    --darkBlue: rgba(33, 37, 111, 1); /* #21256f */
+    --royalBlue: rgba(54, 24, 189, 1); /* #3618bd */
+    --lightBlue: rgba(0, 146, 217, 1); /* #0092d9 */
+    --orange: rgba(241, 138, 57, 1); /* #f18a39 */
+    --purple: rgba(134, 121, 254, 1); /* #8679fe */
+    --violet: rgba(85, 86, 227, 1); /* #5556e3 */
+    --white: rgba(239, 246, 255, 1); /* #eff6ff */
+    --ice: rgba(188, 203, 215, 1); /* #bbcbd7 */
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+    :root {
+        --background: #0a0a0a;
+        --foreground: #ededed;
+    }
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+    color: var(--foreground);
+    background: var(--background);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+@keyframes lightMove {
+    0% {
+        background-position: -200%;
+    }
+    50% {
+        background-position: 100%;
+    }
+    100% {
+        background-position: 200%;
+    }
 }
