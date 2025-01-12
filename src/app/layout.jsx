@@ -1,6 +1,7 @@
 import "./globals.css";
 import { ReactLenis } from "lenis/react";
 import { Kanit } from "next/font/google";
+import '@fortawesome/fontawesome-free/css/all.min.css'
 
 export const metadata = {
     title: "My Portfolio",

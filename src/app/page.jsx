@@ -1,5 +1,5 @@
 "use client";
-import About from "@/components/customs/about";
+import Hero from "@/components/customs/hero";
 import GameIcons from "@/components/customs/games";
 import Letters from "@/components/customs/letters";
 import Nav from "@/components/customs/nav";
@@ -8,6 +8,7 @@ import MyColors from "@/components/myColors";
 import React, { useEffect, useRef, useState } from "react";
 import styled from "styled-components";
 import Debug from "@/components/debug";
+import About from "@/components/customs/about";
 
 const Cursor = styled.div`
     position: absolute;
@@ -78,8 +79,10 @@ export default function Pages() {
             >
                 <Letters YOffset={YOffset} setCursorState={setCursorState} />
                 <div style={{ height: "20vh" }} />
+                <Hero YOffset={YOffset} />
+                <div style={{ height: "2vh" }} />
                 <About YOffset={YOffset} />
-                <div style={{ height: "0vh" }} />
+                <div style={{ height: "20vh" }} />
                 <GameIcons YOffset={YOffset} setCursorState={setCursorState} />
             </div>
         </div>
