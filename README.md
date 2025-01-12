@@ -1,16 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# My Portfolio Website
 
-## My First Next js Project:
+Welcome to my portfolio website! This site showcases my skills, experience, and projects as a full-stack developer. I'm passionate about web development, and I am currently expanding my knowledge in backend development while continuing to hone my frontend skills.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Skills Section**: Displays my key technical skills, with icons representing each technology.
+- **Projects Section**: Lists some of the projects I have worked on (under development).
+- **About Me Section**: Information about my background, experience, and goals as a developer.
+- **Contact Section**: Easy-to-find links to connect with me on GitHub, LinkedIn, and email.
 
-## Learn More
+## Technologies Used
 
-To learn more about Next.js, take a look at the following resources:
+This portfolio was built using the following technologies:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Frontend**:
+  - JavaScript
+  - React.js
+  - Next.js
+  - Tailwind CSS
+  - Font Awesome for icons
+- **Backend (Currently Learning)**:
+  - Node.js
+  - PostgreSQL
+  - PHP
+- **Other Tools & Languages**:
+  - Roblox Studio (for game development)
+  - Lua
+  - Python (with Django)
+  - Java
+  - C++
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Installation
+
+To get a local copy of the repository up and running, follow these simple steps:
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm (or Yarn)
+
+### Getting Started
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/[YourUsername]/portfolio-website.git
